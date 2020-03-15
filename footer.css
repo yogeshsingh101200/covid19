@@ -4,7 +4,7 @@ footer {
     text-align: center;
 } 
 
-.footer-container a:link, a:visited, a:hover, a:active {
+.footer-container a:link, .footer-container a:visited, .footer-container a:hover, .footer-container a:active {
     text-decoration: none;
     color: lightgray;
 }
