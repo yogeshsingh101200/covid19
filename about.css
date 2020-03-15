@@ -1,0 +1,22 @@
+footer {
+    background-color: #343a40;
+    padding: 1px;
+    text-align: center;
+} 
+
+.footer-container a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.primary-text, .secondary-text {
+    font-size: small;
+}
+
+.primary-text {
+    color: white;
+}
+
+.secondary-text {
+    color: lightgray;
+}
