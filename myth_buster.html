@@ -6,12 +6,34 @@
 </head>
 <body>
     <header>
-        <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="prevention.html">How to protect yourself?</a></li>
-            <li><a href="myth_buster.html">Myth buster</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-        </ul>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            
+            <!-- Brand -->
+            <a class="navbar-brand" href="about.html">COVID-19</a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prevention.html">How to protect yourself?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="myth_buster.html">Myth buster</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <h1>Myths and related facts of COVID-19</h1>
     <section>
@@ -74,8 +96,15 @@
         <h2>When to use a mask?</h2>
         <img src="imgs/mythbuster15.png" alt="">
     </section>
-    <footer>
-        Source: world health organization
+    <footer class="footer fixed-bottom">
+        <div class="footer-container">
+                <span class="Primary-text">Source:</span> 
+                <span class="Secondary-text">
+                    <a href="https://www.who.int/health-topics/coronavirus">
+                        World Health Organization
+                    </a>
+                </span>
+        </div>
     </footer>
 </body>
 </html>
