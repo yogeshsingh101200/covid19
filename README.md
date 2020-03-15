@@ -1,3 +1,3 @@
-# Project 0
+# COVID-19
 
-Web Programming with Python and JavaScript
+Comprehensive information regarding novel-coronavirus
