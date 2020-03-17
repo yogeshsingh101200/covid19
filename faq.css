@@ -1,0 +1,14 @@
+body {
+    margin: 65px 25px 65px 25px;
+    text-align: left;
+    font-family: "comic sans ms";
+}
+
+h1 {
+    color: #343a40;
+}
+
+.ques {
+    font-size: large;
+    color: #343a40;
+}
