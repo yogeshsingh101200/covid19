@@ -8,13 +8,3 @@ h1 {
     color: #343a40;
     text-align: center;
 }
-
-#steps {
-    list-style-type: none;
-    padding: 30px;
-}
-
-.d-block {
-    padding: 0 20px 10px 20px;
-    height:fit-content;
-}
