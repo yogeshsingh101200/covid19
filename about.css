@@ -7,3 +7,7 @@ body {
 h2 {
     color: #343a40;
 }
+
+html {
+    scroll-padding-top: 70px; /* height of sticky header */
+}
