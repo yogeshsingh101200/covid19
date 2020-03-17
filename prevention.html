@@ -10,7 +10,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
  
     <!--Extrernal css -->
-    <link rel="stylesheet" type="text/css" href="footer.css">
+    <style>
+        @import url("footer.css");
+        @import url("prevention.css");
+    </style>
 
     <title>How to protect yourself?</title>
 </head>
@@ -33,7 +36,7 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="prevention.html">How to protect yourself?</a>
+                        <a class="nav-link active font-weight-bold" href="prevention.html">How to protect yourself?</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="myth_buster.html">Myth buster</a>
@@ -45,42 +48,54 @@
             </div>
         </nav>
     </header>
-    <section>
-        <h2>7 Steps to protect yourself and prevent the spread of the virus</h2>
-        <ol>
-            <li>
-                <p>Wash your hands frequently</p>
-                <img src="imgs/1.png" alt="washing hands">
-            </li>
-            <li>
-                <p>Avoid touching your eyes, mouth and nose</p>
-                <img src="imgs/2.png" alt="avoid touches on face">
-            </li>
-            <li>
-                <p>Cover you cough with the bend of your elbow or tissue</p>
-                <img src="imgs/3.png" alt="good respiratory hygiene">
-            </li>
-            <li>
-                <p>
-                    Avoid crowded places
-                </p>
-                <img src="imgs/4.png" alt="maintaining safe distance">
-            </li>
-            <li>
-                <p>Stay at home if you feel unwell - even with a slight fever and cough</p>
-                <img src="imgs/5.png" alt="quarantine yourself">
-            </li>
-            <li>
-                <p>
-                    If you have a fever, cough and difficulty breathing, seek medical care early but call by phone first
-                </p>
-                <img src="imgs/6.png" alt="call medics">
-            </li>
-            <li>
-                <p>Stay aware of the latest info from WHO</p>
-                <img src="imgs/7.png" alt="visit who website">
-            </li>
-        </ol>
+    
+    <h1 class="font-weight-bold">7 Steps to protect yourself and prevent the spread of the virus</h1>
+    
+    <div id="steps" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#steps" data-slide-to="0" class="active"></li>
+            <li data-target="#steps" data-slide-to="1"></li>
+            <li data-target="#steps" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/1.png" alt="washing hands" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/2.png" alt="avoid touches on face" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/3.png" alt="good respiratory hygiene" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/4.png" alt="maintaining safe distance" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/5.png" alt="quarantine yourself" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/6.png" alt="call medics" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/7.png" alt="visit who website" class="d-block w-100">
+            </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#steps" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#steps" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
     </section>
     <footer class="footer fixed-bottom">
         <div class="footer-container">
