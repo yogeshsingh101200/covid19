@@ -1,5 +1,5 @@
 body {
-    margin: 65px 25px 65px 2px;
+    margin: 65px 25px 65px 25px;
     text-align: left;
     font-family: "comic sans ms";
 }
@@ -7,9 +7,11 @@ body {
 h1 {
     color: #343a40;
     padding: 10px;
+    text-align: center;
 }
 
-.ques {
+.card-header {
+    background-color: lightgray;
     font-size: large;
-    color: #343a40;
+    font-weight: bold;
 }
