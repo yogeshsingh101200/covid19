@@ -8,9 +8,14 @@ h1 {
     color: #343a40;
     font-weight: bold;
     padding: 10px;
+    text-align: center;
 }
 
-#mythcarousel {
-    background-color: #343a40;
-    padding: 5px;
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: lightgray;
 }
