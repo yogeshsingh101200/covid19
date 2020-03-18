@@ -11,11 +11,6 @@ h1 {
     text-align: center;
 }
 
-.card {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 .card-header {
     background-color: lightgray;
     font-size: large;
