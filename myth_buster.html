@@ -10,7 +10,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <!--Extrernal css -->
-    <link rel="stylesheet" type="text/css" href="footer.css">
+    <style>
+        @import url("footer.css");
+        @import url("myth_buster.css");
+    </style>
 
     <title>Myth buster</title>
 </head>
@@ -36,7 +39,7 @@
                         <a class="nav-link" href="prevention.html">How to protect yourself?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="myth_buster.html">Myth buster</a>
+                        <a class="nav-link active font-weight-bold" href="myth_buster.html">Myth buster</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="faq.html">FAQs</a>
@@ -46,74 +49,69 @@
         </nav>
     </header>
     <h1>Myths and related facts of COVID-19</h1>
-    <section>
-        <h2>Myth: COVID-19 virus cannot be transmitted in areas with hot and humid climates</h2>
-        <img src="imgs/mythbuster1.png" alt="">
-    </section>
-    <section>
-        <h2>Myth: Cold weather and snow can kill the new coronavirus.</h2>
-        <img src="imgs/mythbuster2.png" alt="">
-    </section>
-    <section>
-        <h2>Myth: Taking a hot bath prevent the new coronavirus disease</h2>
-        <img src="imgs/mythbuster3.png" alt="">
-    </section>
-    <section>
-        <h2>Myth: The new coronavirus transmits through mosquito bites.</h2>
-        <img src="imgs/mythbuster4.png" alt="">
-    </section>
-    <section>
-        <h2>Myth: Hand dryers are effective in killing the new coronavirus</h2>
-        <img src="imgs/mythbuster5.png" alt="">
-    </section>
-    <section>
-        <h2>Myth: An ultraviolet disinfection can lamp kill the new coronavirus</h2>
-        <img src="imgs/mythbuster6.png" alt="">
-    </section>
-    <section>
-        <h2>How effective are thermal scanners in detecting people infected with the new coronavirus?</h2>
-        <img src="imgs/mythbuster7.png" alt="">
-    </section>
-    <section>
-        <h2>Myth: Spraying alcohol or chlorine all over your body kill the new coronavirus</h2>
-        <img src="imgs/mythbuster8.png" alt="">
-    </section>
-    <section>
-        <h2>Myth: Vaccines against pneumonia protect you against the new coronavirus</h2>
-        <img src="imgs/mythbuster9.png" alt="">
-    </section>
-    <section>
-        <h2>Myth: Regularly rinsing your nose with saline help prevent infection with the new coronavirus</h2>
-        <img src="imgs/mythbuster10.png" alt="">
-    </section>
-    <section>
-        <h2>Myth: Eating garlic can help prevent infection with the new coronavirus</h2>
-        <img src="imgs/mythbuster11.png" alt="">
-    </section>
-    <section>
-        <h2>Does the new coronavirus affect older people, or are younger people also susceptible?</h2>
-        <img src="imgs/mythbuster12.png" alt="">
-    </section>
-    <section>
-        <h2>Are antibiotics effective in preventing and treating the new coronavirus?</h2>
-        <img src="imgs/mythbuster13.png" alt="">
-    </section>
-    <section>
-        <h2>Are there any specific medicines to prevent or treat the new coronavirus?</h2>
-        <img src="imgs/mythbuster14.png" alt="">
-    </section>
-    <section>
-        <h2>When to use a mask?</h2>
-        <img src="imgs/mythbuster15.png" alt="">
-    </section>
+    <div id="mythcarousel" class="carousel slide container h-75 w-100 mx-auto" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/mythbuster1.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster2.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster3.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster4.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster5.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster6.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster7.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster8.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster9.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster10.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster11.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster12.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster13.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster14.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imgs/mythbuster15.png" alt="" class="w-100 h-100">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#mythcarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#mythcarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a> 
+    </div>
     <footer class="footer fixed-bottom">
         <div class="footer-container">
-                <span class="Primary-text">Source:</span> 
-                <span class="Secondary-text">
-                    <a href="https://www.who.int/health-topics/coronavirus">
-                        World Health Organization
-                    </a>
-                </span>
+            <span class="Primary-text">Source:</span> 
+            <span class="Secondary-text">
+                <a href="https://www.who.int/health-topics/coronavirus">
+                    World Health Organization
+                </a>
+            </span>
         </div>
     </footer>
 </body>

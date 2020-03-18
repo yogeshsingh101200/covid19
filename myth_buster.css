@@ -1,0 +1,16 @@
+body {
+    margin: 65px 25px 65px 25px;
+    text-align: left;
+    font-family: "comic sans ms";
+}
+
+h1 {
+    color: #343a40;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#mythcarousel {
+    background-color: #343a40;
+    padding: 5px;
+}
