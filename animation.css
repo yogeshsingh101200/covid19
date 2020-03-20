@@ -1,0 +1,31 @@
+:target {
+	-webkit-animation: target-fade 2s;
+	-moz-animation: target-fade 2s;
+	-o-animation: target-fade 2s;
+	animation: target-fade 2s;
+}
+
+
+/**
+ * Keyframe animation definition
+**/
+
+@-webkit-keyframes target-fade {
+	from { background-color:yellow; }
+	to { background-color: transparent; }
+}
+
+@-moz-keyframes target-fade {
+	from { background-color: yellow; }
+	to { background-color: transparent; }
+}
+
+@-o-keyframes target-fade {
+	from { background-color: yellow; }
+	to { background-color: transparent; }
+}
+
+@keyframes target-fade {
+	from { background-color: yellow; }
+	to { background-color: transparent; }
+}
