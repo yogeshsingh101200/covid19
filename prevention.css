@@ -9,9 +9,10 @@ h2 {
     padding: 10px;
 }
 
-.photogrid {
+#photobox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .photo {
@@ -19,4 +20,17 @@ h2 {
     padding: 10px;
     width: 350px;
     height: fit-content;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .photo {
+        width: 250px;
+    }
+    
 }
