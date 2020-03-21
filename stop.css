@@ -4,6 +4,10 @@ body {
   font-family: "comic sans ms";
 }
 
+.card {
+  margin: 10px;
+}
+
 .card-header {
   color: #343a40;
   background-color: lightgray;

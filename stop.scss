@@ -7,6 +7,10 @@ body {
 $header-color: #343a40;
 $header-bg-color: lightgray;
 
+.card {
+    margin: 10px;
+}
+
 .card-header {
     color: $header-color;
     background-color: $header-bg-color;
