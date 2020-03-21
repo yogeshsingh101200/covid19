@@ -1,0 +1,25 @@
+body {
+    margin: 65px 25px 65px 25px;
+    text-align: left;
+    font-family: "comic sans ms";
+}
+
+$header-color: #343a40;
+$header-bg-color: lightgray;
+
+.card-header {
+    color: $header-color;
+    background-color: $header-bg-color;
+    font: {
+        weight: bold;
+        size: large;
+    }
+}
+
+.card-img {
+    padding: 0px 15px 15px 15px; 
+}
+
+#measures {
+    padding: 0 25px 25px 25px;
+}

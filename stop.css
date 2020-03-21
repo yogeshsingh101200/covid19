@@ -1,0 +1,22 @@
+body {
+  margin: 65px 25px 65px 25px;
+  text-align: left;
+  font-family: "comic sans ms";
+}
+
+.card-header {
+  color: #343a40;
+  background-color: lightgray;
+  font-weight: bold;
+  font-size: large;
+}
+
+.card-img {
+  padding: 0px 15px 15px 15px;
+}
+
+#measures {
+  padding: 0 25px 25px 25px;
+}
+
+/*# sourceMappingURL=stop.css.map */
