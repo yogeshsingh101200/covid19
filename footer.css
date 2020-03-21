@@ -1,22 +1,24 @@
 footer {
-    background-color: #343a40;
-    padding: 1px;
-    text-align: center;
-} 
+  background-color: #343a40;
+  padding: 1px;
+  text-align: center;
+}
 
 .footer-container a:link, .footer-container a:visited, .footer-container a:hover, .footer-container a:active {
-    text-decoration: none;
-    color: lightgray;
+  text-decoration: none;
+  color: lightgray;
 }
 
 .primary-text, .secondary-text {
-    font-size: small;
+  font-size: small;
 }
 
 .primary-text {
-    color: white;
+  color: white;
 }
 
 .secondary-text {
-    color: lightgray;
+  color: lightgray;
 }
+
+/*# sourceMappingURL=footer.css.map */
